@@ -42,6 +42,12 @@
           case 'listar':
             include 'lista-usuarios.php';
             break;
+          case 'salvar':
+            include 'salvar-usuario.php';
+            break;
+          case 'editar':
+            include 'editar-usuario.php';
+            break;
           default:
             print '<h1>Bem-vindo</h1>';
         }
